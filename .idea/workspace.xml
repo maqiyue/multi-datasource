@@ -4,7 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d038fe09-cb77-4eec-b0fd-b609c638dca7" name="Changes" comment="" />
+    <list default="true" id="d038fe09-cb77-4eec-b0fd-b609c638dca7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/annotation/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/aspect/TenantDataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/contraller/AccountUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/manager/MultiRouterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/manager/TenantTransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TestService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TestService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TransactionTemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-training.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/11.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/MiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/MiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Dialogue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/MiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiIotService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiNaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/TokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/JsonFileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/RandomUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DataSourceManger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DynamicDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DynamicDataSourceConfig2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/SqlUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/SqlUtils2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/TenantRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/MiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Audio$Capabilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Device$Extra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue$Answer$TTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue$Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/MiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/MiIotService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/MiNaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/TokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/HttpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/JsonFileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/RandomUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/DataSourceManger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/DynamicDataSourceConfig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/SqlUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/SqlUtils2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/TenantRoutingDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +87,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/2.0.6/fastjson-2.0.6.jar!/com/alibaba/fastjson/JSON.class" root0="SKIP_INSPECTION" />
@@ -46,6 +120,10 @@
     "Application.SqlUtils2.executor": "Run",
     "Application.Test2Service.executor": "Run",
     "Application.YourDataListener.executor": "Debug",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "JUnit.ATest.executor": "Run",
+    "JUnit.ATest.test.executor": "Run",
     "JUnit.CommodityDaoTest.addCommodities.executor": "Run",
     "JUnit.CommodityDaoTest.removeCommodities.executor": "Run",
     "JUnit.CommodityDaoTest.upDateCommodities.executor": "Run",
@@ -65,12 +143,14 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.MiApplication.executor": "Debug",
     "Spring Boot.MyTrainingApplication.executor": "Run",
     "Spring Boot.app.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "test2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Code/java/mi-ai/src/main/java/com/qyma/mi/config",
     "node.js.detected.package.eslint": "true",
@@ -101,10 +181,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qyma.mi.test" />
       <recent name="com.example.mytraining.dao" />
       <recent name="com.example.mytraining.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qyma.mi.service" />
       <recent name="com.qyma.mi.work" />
       <recent name="com.example.mytraining.utils" />
     </key>
@@ -116,55 +198,42 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SqlUtils">
-    <configuration name="JsonFileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.utils.JsonFileUtil" />
-      <module name="mi" />
+  <component name="RunManager" selected="Spring Boot.MiApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="multi-datasource" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qyma.mi.utils.*" />
+          <option name="PATTERN" value="com.qyma.db.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.qyma.mi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.test.ATest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.utils.MD5Util" />
-      <module name="mi-ai" />
+    <configuration name="ATest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="multi-datasource" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qyma.mi.utils.*" />
+          <option name="PATTERN" value="com.qyma.db.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SqlUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.work.SqlUtils" />
-      <module name="mi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qyma.mi.work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SqlUtils2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.work.SqlUtils2" />
-      <module name="mi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qyma.mi.work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.qyma.mi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qyma.mi.test.ATest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,12 +245,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="multi-datasource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="multi-datasource" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyma.mi.MiApplication" />
+      <module name="multi-datasource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyma.db.MiApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qyma.mi.*" />
+          <option name="PATTERN" value="com.qyma.db.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,27 +273,27 @@
     </configuration>
     <configuration name="app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="mi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyma.mi.MiApplication" />
+      <module name="multi-datasource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyma.db.MiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SqlUtils" />
-      <item itemvalue="Application.SqlUtils2" />
-      <item itemvalue="Application.JsonFileUtil" />
-      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
+      <item itemvalue="JUnit.ATest" />
+      <item itemvalue="JUnit.ATest.test" />
       <item itemvalue="Spring Boot.app" />
       <item itemvalue="Spring Boot.MiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SqlUtils" />
-        <item itemvalue="Application.SqlUtils2" />
         <item itemvalue="Spring Boot.MiApplication" />
-        <item itemvalue="Application.JsonFileUtil" />
-        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="JUnit.ATest.test" />
+        <item itemvalue="JUnit.ATest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +332,9 @@
       <workItem from="1722177799387" duration="11686000" />
       <workItem from="1722872507912" duration="3852000" />
       <workItem from="1723037511571" duration="12889000" />
+      <workItem from="1724083095890" duration="7184000" />
+      <workItem from="1724164192016" duration="159000" />
+      <workItem from="1724476495233" duration="15718000" />
     </task>
     <servers />
   </component>
@@ -285,14 +370,9 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiNaService.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiNaService.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="54" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/qyma/db/service/TestService1.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
