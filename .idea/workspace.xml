@@ -5,75 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d038fe09-cb77-4eec-b0fd-b609c638dca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/annotation/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/aspect/TenantDataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/contraller/AccountUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/manager/MultiRouterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/manager/TenantTransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TestService1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TestService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/service/TransactionTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-training.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/11.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/MiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qyma/db/MiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/config/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Audio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Device.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Dialogue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/MiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/model/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiIotService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/MiNaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/service/TokenManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/HttpUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/JsonFileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/MD5Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/utils/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DataSourceManger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DynamicDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/DynamicDataSourceConfig2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/SqlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/SqlUtils2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyma/mi/work/TenantRoutingDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/MiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Audio$Capabilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Device$Extra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue$Answer$TTS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue$Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Dialogue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/MiConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/model/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/MiIotService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/MiNaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/service/TokenManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/HttpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/JsonFileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/utils/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/DataSourceManger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/DynamicDataSourceConfig2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/SqlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/SqlUtils2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyma/mi/work/TenantRoutingDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +266,7 @@
       <workItem from="1723037511571" duration="12889000" />
       <workItem from="1724083095890" duration="7184000" />
       <workItem from="1724164192016" duration="159000" />
-      <workItem from="1724476495233" duration="15718000" />
+      <workItem from="1724476495233" duration="17482000" />
     </task>
     <servers />
   </component>
