@@ -8,6 +8,10 @@ public class MultiRouterManager extends AbstractRoutingDataSource {
 
     @Override
     protected Object determineCurrentLookupKey() {
+       return getDataSourceKey();
+    }
+
+    public static String getDataSourceKey(){
         if (dataSourceContext.get() != null && tenantContext.get() != null){
             return tenantContext.get();
         }

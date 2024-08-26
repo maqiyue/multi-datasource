@@ -24,30 +24,34 @@ public class TestService1 {
     @Resource
     private TestService2 testService2;
 
-    @Resource
-    @Qualifier("commonTransactionTemplate")
-    private TransactionTemplate commonTransactionTemplate;
-
-    @Resource
-    private TransactionTemplate tenantTransactionTemplate;
 
     /**
      * common的事务
      */
-    @Transactional(value = "common", rollbackFor = Exception.class)
+    @Transactional
     public String createAccount(String name) {
         Account account = new Account();
         account.setAccount(name);
         account.setPassword(name);
         accountMapper.insertAccount(account);
-        accountMapper.insertAccount(account);
+
+
+        User user = new User();
+        user.setAccount(name);
+        user.setDepartmentId(1);
+        userMapper.insertUser(user);
+        userMapper.insertUser(user);
+
+        createUser(name);
+        testService2.test1C(name);
+        int a= 1/0;
         return "Account and User created successfully!";
     }
 
     /**
      * tenant的事务
      */
-    @Transactional(rollbackFor = Exception.class)
+
     public String createUser(String name) {
         User user = new User();
         user.setAccount(name);
@@ -61,7 +65,7 @@ public class TestService1 {
     /**
      * 综合测试  s
      */
-    @Transactional(value = "common",rollbackFor = Exception.class)
+    @Transactional
     public String test1(String name) {
 
 

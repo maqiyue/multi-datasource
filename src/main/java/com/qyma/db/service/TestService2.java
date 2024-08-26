@@ -39,10 +39,10 @@ public class TestService2 {
     }
 
     public String test1C(String name) {
-        User user = new User();
+        Account user = new Account();
         user.setAccount(name);
-        user.setDepartmentId(1);
-        userMapper.insertUser(user);
+        user.setPassword(name);
+        accountMapper.insertAccount(user);
         return "Account and User created successfully!";
     }
 

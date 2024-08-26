@@ -1,0 +1,1 @@
+{"id":"192.168.31.174.tm172469066151600001","wasCommitted":false,"participants":[{"uri":"192.168.31.174.tm1","state":"TERMINATED","expires":1724690672044,"resourceName":"common"},{"uri":"192.168.31.174.tm2","state":"TERMINATED","expires":1724690672044,"resourceName":"tenant_02"}]}
