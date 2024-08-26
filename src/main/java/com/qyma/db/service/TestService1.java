@@ -44,7 +44,7 @@ public class TestService1 {
 
         createUser(name);
         testService2.test1C(name);
-        int a= 1/0;
+//        int a= 1/0;
         return "Account and User created successfully!";
     }
 

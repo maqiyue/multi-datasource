@@ -82,7 +82,7 @@ public class DataSourceConfig {
         bean.setTransactionFactory(new SpringManagedTransactionFactory(){
             @Override
             public Transaction newTransaction(DataSource dataSource, TransactionIsolationLevel level, boolean autoCommit) {
-                return new MultiDataSourceTransaction(dataSource);
+                return new MultiDataSourceTransaction2(dataSource);
             }
         });
         bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mybatis/**/*.xml"));// 扫描指定目录的xml
