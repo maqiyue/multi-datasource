@@ -28,13 +28,14 @@ public class TestService1 {
     /**
      * common的事务
      */
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public String createAccount(String name) {
         Account account = new Account();
         account.setAccount(name);
         account.setPassword(name);
         accountMapper.insertAccount(account);
-
+        accountMapper.selectAllAccounts();
+        userMapper.selectAllUsers();
 
         User user = new User();
         user.setAccount(name);
@@ -44,7 +45,7 @@ public class TestService1 {
 
         createUser(name);
         testService2.test1C(name);
-//        int a= 1/0;
+        int a= 1/0;
         return "Account and User created successfully!";
     }
 

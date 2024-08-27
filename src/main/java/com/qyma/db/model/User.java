@@ -3,11 +3,20 @@ package com.qyma.db.model;
 
 import lombok.Data;
 
-@Data
-public class User {
-    private int id;
-    private String account;
-    private int departmentId;
+import javax.persistence.*;
 
-    // Getters and Setters
+@Data
+@Entity
+@Table(name = "user") // 数据库表名
+public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @Column(name = "account",  columnDefinition = "varchar(255) COMMENT '账户名'") // 账户名
+    private String account;
+
+    @Column(name = "department_id", columnDefinition = "int COMMENT '部门ID'") // 部门ID
+    private int departmentId;
 }
